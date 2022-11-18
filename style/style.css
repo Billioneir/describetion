@@ -1,0 +1,230 @@
+body {
+    background: url("https://www.atlasandboots.com/wp-content/uploads/2019/05/ama-dablam2-most-beautiful-mountains-in-the-world.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  img {
+      user-select: none;
+  }
+  
+  .section {
+    max-width: 1400px;
+    min-height: 900px;
+    background: none;
+    margin: 100px auto;
+    display: flex;
+    opacity: 0.78;
+  }
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .section__first_child {
+    width: 350px;
+    background: aqua;
+    padding: 20px;
+  }
+  .section__first_child img {
+    width: 320px;
+    border-radius: 50%;
+  }
+  .contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .contact_kinds {
+    display: flex;
+  }
+  .contact_kinds img {
+    width: 20px;
+    padding: 10px;
+  }
+  .contact_kinds p {
+    padding-top: 15px;
+    font-family: "Open Sans";
+  }
+  .formation {
+    max-width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .formation h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: "Raleway";
+    padding: 10px 0;
+  }
+  .formation p {
+    color: #a56fff;
+    padding: 10px 0;
+  }
+  .formation h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 14px;
+    color: #444444;
+    font-family: "Open Sans";
+    padding: 10px 0;
+  }
+  .formation h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    color: #999999;
+    font-family: "Open Sans";
+  }
+  .projects {
+    padding: 10px;
+  }
+  .projects h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: "Raleway";
+    padding: 10px 0;
+  }
+  .projects p {
+    color: #a56fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    font-family: "Open Sans";
+  }
+  .project_icon {
+    display: flex;
+  }
+  .project_icon h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: justify;
+    text-decoration-line: underline;
+    color: #444444;
+    font-family: "Open Sans";
+    padding: 8px 0px;
+  }
+  .project_icon h4 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #999999;
+    padding: 8px 0px;
+  }
+  .projects h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #444444;
+    font-family: "Open Sans";
+    padding: 8px 0px;
+  }
+  .project_card {
+    margin-bottom: 40px;
+  }
+  .first_child {
+    margin-bottom: 20px;
+  }
+  .first_child h1 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: "Source Code Pro";
+    padding: 10px;
+  }
+  .first_child p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #9967ba 0%, #0071e3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    font-family: "Source Code Pro";
+    padding: 10px;
+  }
+  .section__second_child {
+    background: #eeeeee;
+  }
+  .first_child h4 {
+    font-family: "Source Code Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #444444;
+    padding: 10px;
+    font-family: "Open Sans";
+  }
+  .second_child {
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .second_child h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: "Raleway";
+    padding: 10px 0;
+  }
+  .second_child p {
+    color: #a56fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    font-family: "Open Sans";
+    padding: 10px 0;
+  }
+  .second_child h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #5e5d5d;
+    font-family: "Open Sans";
+  }
+  
